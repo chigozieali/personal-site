@@ -199,6 +199,10 @@ export const COLLECTION_SPECS: Record<CollectionKey, CollectionSpec> = {
     key: "projects",
     label: "Projects",
     fields: [
+      text("category", "Category", {
+        placeholder: "Cloud",
+        hint: "Projects with the same category are grouped together. Enter a new name to create or move a project.",
+      }),
       text("date", "Date", { placeholder: "Apr 2026" }),
       text("type", "Type", { placeholder: "Azure" }),
       text("title", "Title", { wide: true }),
@@ -216,6 +220,7 @@ export const COLLECTION_SPECS: Record<CollectionKey, CollectionSpec> = {
     ],
     summary: (item) => String(item.title ?? "New project"),
     blank: () => ({
+      category: "Other",
       date: "",
       type: "",
       title: "",

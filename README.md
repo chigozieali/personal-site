@@ -107,6 +107,9 @@ The editor groups its panels in a sidebar instead of one long row of tabs:
 
 The groups live in `lib/settings-nav.ts`. Each panel is still a `?tab=` URL, so a link
 can point at one directly. Below 860px the sidebar is replaced by a native picker.
+Projects can be assigned a category in Settings; the public Projects section groups
+them into expandable sections. Existing projects without a category initially use
+their Type as the category, and new category names can be entered directly on a project.
 
 ## The editor assistant
 

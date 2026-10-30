@@ -61,6 +61,12 @@ export default function SettingsEditor({
     for (const key of COLLECTIONS) {
       out[key] = content.items[key].map((item) => {
         const { id, ...rest } = item as unknown as Draft;
+        if (key === "projects" && typeof rest.category !== "string") {
+          rest.category =
+            typeof rest.type === "string" && rest.type.trim()
+              ? rest.type
+              : "Other";
+        }
         return { id: typeof id === "string" ? id : "", data: rest as Draft };
       });
     }

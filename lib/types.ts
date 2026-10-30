@@ -75,6 +75,7 @@ export type RoadmapContent = Identified & {
   active: boolean;
 };
 export type ProjectContent = Identified & {
+  category: string;
   date: string;
   type: string;
   title: string;
