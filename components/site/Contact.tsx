@@ -15,7 +15,7 @@ export default function Contact({
       <div className="contact">
         <h2>{contact.heading}</h2>
         <p>{contact.text}</p>
-        <ContactForm email={profile.email} />
+        <ContactForm />
         <div className="social">
           {profile.socials.map((social, index) => (
             <a

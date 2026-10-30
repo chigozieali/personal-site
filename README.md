@@ -132,11 +132,10 @@ throttle, context) and `components/settings/AiAssist.tsx` / `SkillsAi.tsx` (the 
 
 ## Contact form
 
-The contact section posts to [Formspree](https://formspree.io/f/mgaazdzn) through
-`@formspree/react`. The public form id lives in `components/site/ContactForm.tsx`
-(`FORM_ID`), so there is no environment variable to set. The form sends `name`, `email`
-and `message`, plus a hidden `_gotcha` honeypot field, and renders Formspree's field
-errors inline. To point the site at another form, change that constant.
+The contact form submits `name`, `email` and `message` with a standard `POST` to
+[Formtorch](https://formtorch.com/f/d0w1ed3wlm). The endpoint is set in
+`components/site/ContactForm.tsx`; no environment variable is needed. To use a different
+Formtorch endpoint, update the form's `action` URL.
 
 ## Deploying to Vercel
 
