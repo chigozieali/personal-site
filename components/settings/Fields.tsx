@@ -143,22 +143,14 @@ function Control({
     );
   }
 
-  if (field.kind === "csv") {
-    const rows = asArray(value).map((entry) => String(entry));
+  if (field.kind === "tags") {
     return (
-      <div className={"st-field" + (wide ? " wide" : "")}>
-        <label>{field.label}</label>
-        <input
-          type="text"
-          value={rows.join(",")}
-          placeholder={field.placeholder}
-          disabled={disabled}
-          onChange={(event) =>
-            onChange(event.target.value.split(",").filter((entry) => entry !== ""))
-          }
-        />
-        {field.hint ? <span className="tip">{field.hint}</span> : null}
-      </div>
+      <StringTagList
+        field={field}
+        value={asArray(value).map(String)}
+        onChange={onChange}
+        disabled={disabled}
+      />
     );
   }
 
@@ -263,6 +255,67 @@ function Control({
       onChange={onChange}
       disabled={disabled}
     />
+  );
+}
+
+function StringTagList({
+  field,
+  value,
+  onChange,
+  disabled,
+}: {
+  field: Extract<Field, { kind: "tags" }>;
+  value: string[];
+  onChange: (next: unknown) => void;
+  disabled?: boolean;
+}) {
+  const [draft, setDraft] = useState("");
+
+  function add() {
+    const tag = draft.trim();
+    if (!tag) return;
+    onChange([...value, tag]);
+    setDraft("");
+  }
+
+  return (
+    <div className="st-field wide">
+      <label>{field.label}</label>
+      <div className="st-row">
+        {value.map((tag, index) => (
+          <span className="st-tag" key={`${tag}-${index}`}>
+            {tag}
+            <button
+              type="button"
+              aria-label={`Remove ${tag}`}
+              disabled={disabled}
+              onClick={() => onChange(value.filter((_, i) => i !== index))}
+            >
+              ×
+            </button>
+          </span>
+        ))}
+      </div>
+      <div className="st-row">
+        <input
+          type="text"
+          value={draft}
+          placeholder="Type a tag and press Enter"
+          disabled={disabled}
+          onChange={(event) => setDraft(event.target.value)}
+          onKeyDown={(event) => {
+            if (event.key === "Enter") {
+              event.preventDefault();
+              add();
+            }
+          }}
+        />
+        <button className="st-btn mini" type="button" disabled={disabled} onClick={add}>
+          Add
+        </button>
+      </div>
+      {field.hint ? <span className="tip">{field.hint}</span> : null}
+    </div>
   );
 }
 

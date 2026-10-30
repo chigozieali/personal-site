@@ -26,7 +26,7 @@ export type Field =
       hint?: string;
     }
   | {
-      kind: "csv";
+      kind: "tags";
       name: string;
       label: string;
       wide?: boolean;
@@ -94,11 +94,11 @@ const lines = (
   extra: Partial<Extract<Field, { kind: "lines" }>> = {},
 ): Field => ({ kind: "lines", name, label, ...extra });
 
-const csv = (
+const tags = (
   name: string,
   label: string,
-  extra: Partial<Extract<Field, { kind: "csv" }>> = {},
-): Field => ({ kind: "csv", name, label, ...extra });
+  extra: Partial<Extract<Field, { kind: "tags" }>> = {},
+): Field => ({ kind: "tags", name, label, ...extra });
 
 const toggle = (name: string, label: string, hint?: string): Field => ({
   kind: "toggle",
@@ -203,9 +203,9 @@ export const COLLECTION_SPECS: Record<CollectionKey, CollectionSpec> = {
       text("type", "Type", { placeholder: "Azure" }),
       text("title", "Title", { wide: true }),
       area("desc", "Description", { wide: true }),
-      csv("tags", "Tags", {
+      tags("tags", "Tags", {
         wide: true,
-        hint: "Comma separated, for example: Azure VMs, NSG, Ubuntu",
+        hint: "Add tags one at a time.",
       }),
       text("link", "Link URL", { wide: true, placeholder: "https://github.com/..." }),
       text("linkLabel", "Link label", { placeholder: "GitHub ↗" }),
@@ -374,7 +374,7 @@ export function normalizeValue(field: Field, value: unknown): unknown {
       return trim(value);
     case "lines":
       return asArray(value).map(trim).filter((entry) => entry !== "");
-    case "csv":
+    case "tags":
       return asArray(value).map(trim).filter((entry) => entry !== "");
     case "toggle":
       return Boolean(value);
