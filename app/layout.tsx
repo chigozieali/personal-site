@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Mono, Hanken_Grotesk, Young_Serif } from "next/font/google";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/next';
 
 const hanken = Hanken_Grotesk({
   subsets: ["latin"],
@@ -49,7 +50,10 @@ export default function RootLayout({
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeBoot }} />
       </head>
-      <body>{children}</body>
+      <body>
+      {children}
+      <Analytics />
+      </body>
     </html>
   );
 }
