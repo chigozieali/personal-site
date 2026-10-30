@@ -1,0 +1,38 @@
+{
+  "name": "chigozie-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "db:push": "node --env-file-if-exists=.env.local scripts/apply-schema.mjs",
+    "db:seed": "node --env-file-if-exists=.env.local scripts/seed.mjs",
+    "db:check": "node --env-file-if-exists=.env.local scripts/verify-db.mjs",
+    "test:smoke": "node --env-file-if-exists=.env.local scripts/smoke.mjs",
+    "test:crud": "node --env-file-if-exists=.env.local scripts/crud.mjs"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^4.0.108",
+    "@ai-sdk/groq": "^4.0.73",
+    "@ai-sdk/openai": "^4.0.105",
+    "@formspree/react": "^3.0.0",
+    "ai": "^7.0.157",
+    "jose": "^6.2.13",
+    "next": "^16.4.2",
+    "postgres": "^3.4.9",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.4.2",
+    "typescript": "^5.7.0"
+  }
+}

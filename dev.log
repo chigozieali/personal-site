@@ -1,0 +1,60 @@
+▲ Next.js 16.4.2 (Turbopack)
+- Local:         http://localhost:3111
+- Network:       http://192.168.56.1:3111
+- Environments: .env.local
+✓ Ready in 1165ms
+✓ Running next.config.ts took 553ms
+
+✓ Generated AGENTS.md for AI agents. Set `agentRules: false` in next.config to disable.
+○ Compiling / ...
+ GET / 500 in 1977ms (next.js: 727ms, application-code: 1249ms)
+ GET / 500 in 92ms (next.js: 4ms, application-code: 88ms)
+ GET / 500 in 168ms (next.js: 4ms, application-code: 164ms)
+ GET / 500 in 108ms (next.js: 4ms, application-code: 104ms)
+ GET / 500 in 112ms (next.js: 3ms, application-code: 109ms)
+ GET / 500 in 111ms (next.js: 4ms, application-code: 107ms)
+ GET / 500 in 117ms (next.js: 6ms, application-code: 112ms)
+ GET / 500 in 98ms (next.js: 4ms, application-code: 94ms)
+ GET / 500 in 107ms (next.js: 7ms, application-code: 101ms)
+ GET / 500 in 97ms (next.js: 5ms, application-code: 92ms)
+ GET / 500 in 164ms (next.js: 7ms, application-code: 157ms)
+ GET / 500 in 174ms (next.js: 6ms, application-code: 168ms)
+ GET / 500 in 189ms (next.js: 16ms, application-code: 173ms)
+ GET / 500 in 133ms (next.js: 5ms, application-code: 128ms)
+ GET / 500 in 124ms (next.js: 5ms, application-code: 119ms)
+ GET / 500 in 136ms (next.js: 5ms, application-code: 131ms)
+ GET / 500 in 120ms (next.js: 7ms, application-code: 113ms)
+ GET / 500 in 131ms (next.js: 6ms, application-code: 125ms)
+ GET / 500 in 113ms (next.js: 3ms, application-code: 111ms)
+ GET / 500 in 110ms (next.js: 4ms, application-code: 106ms)
+ GET / 500 in 116ms (next.js: 4ms, application-code: 112ms)
+ GET / 500 in 120ms (next.js: 5ms, application-code: 115ms)
+ GET / 500 in 108ms (next.js: 4ms, application-code: 104ms)
+ GET / 500 in 124ms (next.js: 4ms, application-code: 119ms)
+ GET / 500 in 125ms (next.js: 6ms, application-code: 120ms)
+ GET / 500 in 143ms (next.js: 5ms, application-code: 139ms)
+ GET / 500 in 103ms (next.js: 4ms, application-code: 99ms)
+ GET / 500 in 124ms (next.js: 5ms, application-code: 119ms)
+ GET / 500 in 120ms (next.js: 4ms, application-code: 116ms)
+ GET / 500 in 132ms (next.js: 4ms, application-code: 128ms)
+ GET / 500 in 116ms (next.js: 5ms, application-code: 112ms)
+ GET / 500 in 125ms (next.js: 3ms, application-code: 122ms)
+ GET / 500 in 120ms (next.js: 5ms, application-code: 115ms)
+ GET / 500 in 100ms (next.js: 4ms, application-code: 97ms)
+ GET / 500 in 105ms (next.js: 3ms, application-code: 101ms)
+ GET / 500 in 112ms (next.js: 5ms, application-code: 107ms)
+ GET / 500 in 131ms (next.js: 5ms, application-code: 126ms)
+ GET / 500 in 130ms (next.js: 5ms, application-code: 125ms)
+ GET / 500 in 135ms (next.js: 5ms, application-code: 130ms)
+✓ Compiled in 1313ms
+✓ Compiled in 187ms
+✓ Compiled in 65ms
+✓ Compiled in 142ms
+✓ Compiled in 240ms
+✓ Compiled in 28ms
+✓ Compiled in 26ms
+✓ Compiled in 81ms
+✓ Compiled in 48ms
+✓ Compiled in 54ms
+✓ Compiled in 76ms
+[?25h

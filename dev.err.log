@@ -1,0 +1,3315 @@
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '3433223132'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '811383643'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '291129145'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '1667426370'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '3619882984'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '1234868608'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '2983111398'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}
+⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at Hero (components\site\Hero.tsx:44:57)
+  42 |         </p>
+  43 |         <p className="typed">
+> 44 |           Ask me about <span id="typed">{hero.typedWords[0] ?? ""}</span>
+     |                                                         ^
+  45 |           <i className="caret" aria-hidden="true" />
+  46 |         </p>
+  47 |         <div className="cta"> {
+  digest: '22527576'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at About (components\site\About.tsx:7:25)
+   5 |   return (
+   6 |     <div className="about">
+>  7 |       {about.paragraphs.map((paragraph) => (
+     |                         ^
+   8 |         <p key={paragraph.slice(0, 40)}>
+   9 |           <Inline text={paragraph} />
+  10 |         </p> {
+  digest: '1088020831'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Experience.tsx:14:29)
+    at Array.map (<anonymous>)
+    at Experience (components\site\Experience.tsx:7:14)
+  12 |             <p className="sub">{item.sub}</p>
+  13 |             <ul>
+> 14 |               {item.bullets.map((bullet) => (
+     |                             ^
+  15 |                 <li key={bullet.slice(0, 40)}>
+  16 |                   <Inline text={bullet} />
+  17 |                 </li> {
+  digest: '1323814973'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Services.tsx:18:32)
+    at Array.map (<anonymous>)
+    at Services (components\site\Services.tsx:13:16)
+  16 |             <p>{service.desc}</p>
+  17 |             <ul>
+> 18 |               {service.bullets.map((bullet) => (
+     |                                ^
+  19 |                 <li key={bullet}>{bullet}</li>
+  20 |               ))}
+  21 |             </ul> {
+  digest: '674288710'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Skills.tsx:10:26)
+    at Array.map (<anonymous>)
+    at Skills (components\site\Skills.tsx:6:15)
+   8 |           <dt>{group.group}</dt>
+   9 |           <dd>
+> 10 |             {group.items.map((tag) => (
+     |                          ^
+  11 |               <span className={tag.hot ? "tag hot" : "tag"} key={tag.label}>
+  12 |                 {tag.label}
+  13 |               </span> {
+  digest: '2850044652'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at <unknown> (components\site\Projects.tsx:17:29)
+    at Array.map (<anonymous>)
+    at Projects (components\site\Projects.tsx:6:17)
+  15 |             <p>{project.desc}</p>
+  16 |             <div className="tags">
+> 17 |               {project.tags.map((tag) => (
+     |                             ^
+  18 |                 <span key={tag}>{tag}</span>
+  19 |               ))}
+  20 |             </div> {
+  digest: '2453703812'
+}
+⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at Contact (components\site\Contact.tsx:23:28)
+  21 |         </div>
+  22 |         <div className="social">
+> 23 |           {profile.socials.map((social) => (
+     |                            ^
+  24 |             <a
+  25 |               className="btn sm"
+  26 |               key={social.href} {
+  digest: '1579392738'
+}

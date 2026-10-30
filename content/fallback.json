@@ -1,0 +1,288 @@
+{
+  "settings": {
+    "meta": {
+      "title": "Chigozie Alioha — IT Support to Cloud Engineer",
+      "description": "Chigozie Alioha is an IT support professional in Port Harcourt, Nigeria, working toward a Cloud Engineer role. Helpdesk, desktop support, infrastructure, Azure labs and networking.",
+      "footerText": "© 2026 Chigozie Alioha. All rights reserved.",
+      "footerLocation": "Port Harcourt, Nigeria"
+    },
+    "profile": {
+      "name": "Chigozie Alioha",
+      "initials": "CA",
+      "tagline": "IT Support → Cloud Engineer",
+      "location": "Port Harcourt, Nigeria",
+      "email": "csalioha@gmail.com",
+      "phone": "+234 816 625 9754",
+      "availability": "Remote, worldwide",
+      "currentRole": "IT Support",
+      "movingInto": "Cloud Engineering",
+      "socials": [
+        { "label": "LinkedIn ↗", "href": "https://www.linkedin.com/in/chigoziealioha" },
+        { "label": "GitHub ↗", "href": "https://github.com/chigozieali" },
+        { "label": "Main site ↗", "href": "https://csalioha.vercel.app/" }
+      ]
+    },
+    "hero": {
+      "headlineBefore": "From the helpdesk to the",
+      "headlineHighlight": "cloud.",
+      "lead": "I've spent over five years in **helpdesk, desktop support and infrastructure**, keeping 200+ people working. I'm now training for the Azure Administrator exam and building the labs to prove it.",
+      "typedWords": [
+        "helpdesk and desktop support",
+        "office network setup",
+        "home servers and storage",
+        "Excel tracking tools"
+      ],
+      "primaryCta": { "label": "See my projects", "href": "#projects" },
+      "secondaryCta": { "label": "Get in touch", "href": "#contact" }
+    },
+    "about": {
+      "paragraphs": [
+        "I started in **IT support**, where the job is staying calm while someone's work is stuck. Five years of helpdesk, desktop support and infrastructure taught me how real systems fail: accounts, networks, hardware, and the people using them.",
+        "Now I'm taking that into the cloud. I'm following a structured roadmap to the **Azure Administrator (AZ-104)** certification, with Cloud Engineer as the goal, and I build hands-on Azure and networking labs along the way.",
+        "I like clear documentation, tidy tickets and fixes that stay fixed."
+      ],
+      "facts": [
+        { "label": "Based in", "value": "Port Harcourt, Nigeria" },
+        { "label": "Current role", "value": "IT Support" },
+        { "label": "Moving into", "value": "Cloud Engineering" },
+        { "label": "Availability", "value": "Remote, worldwide" }
+      ]
+    },
+    "servicesCta": {
+      "text": "Not sure which one you need?",
+      "label": "Tell me what you're working on"
+    },
+    "contact": {
+      "heading": "Let's talk IT support or cloud migration.",
+      "text": "Reach out about a role, a system to support or a cloud migration to plan. I usually reply within a day."
+    }
+  },
+  "items": {
+    "now": [
+      {
+        "heading": "Right now",
+        "bullets": [
+          "Studying for AZ-900, then AZ-104",
+          "Building Azure and network labs",
+          "Open to cloud and IT support roles, remote worldwide"
+        ],
+        "updated": "Updated October 2026"
+      }
+    ],
+    "stats": [
+      { "value": "5+", "label": "Years in IT support" },
+      { "value": "200+", "label": "Users supported" },
+      { "value": "8", "label": "Cloud and tech projects" },
+      { "value": "5", "label": "Certificates completed" }
+    ],
+    "experience": [
+      {
+        "when": "Next",
+        "title": "Cloud Engineer",
+        "sub": "The role I'm building toward",
+        "bullets": [
+          "Deploy and manage **virtual machines, networks, storage and databases** in Azure.",
+          "Earn the **Azure Administrator (AZ-104)** certification first.",
+          "Plan and run cloud migrations for teams moving off on-premises systems."
+        ],
+        "upcoming": true
+      },
+      {
+        "when": "5+ years",
+        "title": "IT Support Professional",
+        "sub": "Helpdesk · Desktop support · Infrastructure",
+        "bullets": [
+          "Supported **200+ users** with hardware, software, account and network issues.",
+          "Built an **Excel helpdesk tracker** with automation and reporting to follow tickets from open to closed.",
+          "Set up and maintained office networks, user devices and shared resources.",
+          "Wrote simple guides so repeat problems get solved without a ticket."
+        ]
+      }
+    ],
+    "services": [
+      {
+        "title": "IT helpdesk and desktop support",
+        "desc": "Fast, patient support for teams and small businesses, on site or remote.",
+        "bullets": ["Hardware, software and account issues", "User setup and device rollout", "Ticket tracking and clear documentation"]
+      },
+      {
+        "title": "Network setup and troubleshooting",
+        "desc": "Office networks designed to stay up and easy to manage.",
+        "bullets": ["VLAN segmentation and DHCP", "Dual-ISP failover for outages", "Fault finding and performance checks"]
+      },
+      {
+        "title": "Azure setup and cloud migration",
+        "desc": "Move from on-premises systems to Azure in sensible steps.",
+        "bullets": ["Migration planning", "Virtual machines with secure access rules", "Blob storage and Azure SQL databases"]
+      },
+      {
+        "title": "Server and storage setup",
+        "desc": "Your own file storage, virtualization and firewall without a monthly bill.",
+        "bullets": ["Proxmox virtualization", "TrueNAS storage and sharing", "OPNsense firewall and networking"]
+      },
+      {
+        "title": "Helpdesk and reporting tools",
+        "desc": "Simple Excel trackers that show what is open and what is late.",
+        "bullets": ["Ticket and asset trackers", "Automated reports", "Handover guides for your team"]
+      },
+      {
+        "title": "Websites and web apps",
+        "desc": "Clean, fast sites and small tools for people and businesses.",
+        "bullets": ["Portfolio and business sites", "Static hosting on Azure", "Web apps built with AI-assisted workflows"]
+      }
+    ],
+    "skills": [
+      {
+        "group": "Cloud",
+        "items": [
+          { "label": "Azure Blob Storage", "hot": true },
+          { "label": "Azure VMs", "hot": true },
+          { "label": "Network Security Groups", "hot": true },
+          { "label": "Azure SQL Database", "hot": true }
+        ]
+      },
+      {
+        "group": "Infrastructure",
+        "items": [
+          { "label": "Linux (Ubuntu)" },
+          { "label": "SSH" },
+          { "label": "Proxmox" },
+          { "label": "TrueNAS" },
+          { "label": "OPNsense" }
+        ]
+      },
+      {
+        "group": "Networking",
+        "items": [
+          { "label": "VLANs" },
+          { "label": "DHCP" },
+          { "label": "OSPF" },
+          { "label": "Inter-VLAN routing" },
+          { "label": "WAN redundancy" }
+        ]
+      },
+      {
+        "group": "Support",
+        "items": [
+          { "label": "Helpdesk" },
+          { "label": "Desktop support" },
+          { "label": "Ticketing" },
+          { "label": "Documentation" }
+        ]
+      },
+      {
+        "group": "Build",
+        "items": [
+          { "label": "HTML / CSS" },
+          { "label": "AI-assisted development" },
+          { "label": "Excel automation" }
+        ]
+      }
+    ],
+    "certificates": [
+      {
+        "title": "Google IT Support Professional Certificate",
+        "issuer": "Google",
+        "desc": "Support fundamentals, networking, operating systems, system administration and security."
+      },
+      {
+        "title": "System Administration and IT Infrastructure Services",
+        "issuer": "Google",
+        "desc": "Managing servers, directory services, cloud basics and infrastructure operations."
+      },
+      {
+        "title": "IT Security: Defense against the Digital Dark Arts",
+        "issuer": "Google",
+        "desc": "Threats, encryption, authentication and defense in depth."
+      },
+      {
+        "title": "Cisco Networking Basics",
+        "issuer": "Cisco",
+        "desc": "Core networking concepts, addressing and how traffic moves across a network."
+      },
+      {
+        "title": "Cisco Endpoint Security",
+        "issuer": "Cisco",
+        "desc": "Protecting devices and endpoints from malware and attacks."
+      }
+    ],
+    "roadmap": [
+      { "code": "AZ-900", "title": "Microsoft Azure Fundamentals", "status": "In progress", "active": true },
+      { "code": "AZ-104", "title": "Microsoft Azure Administrator", "status": "Next target", "active": true },
+      { "code": "Sec+", "title": "CompTIA Security+", "status": "Planned", "active": false }
+    ],
+    "projects": [
+      {
+        "date": "Apr 2026",
+        "type": "Azure",
+        "title": "Static Portfolio on Azure Blob",
+        "desc": "Portfolio site hosted as a static website in Azure Blob Storage, with custom error pages and anonymous read access.",
+        "tags": ["Blob Storage", "Static website", "HTML/CSS"],
+        "link": "https://github.com/chigozieali/Azure-Cloud-Projects-Portfolio/tree/main/01-static-website-azure-storage",
+        "linkLabel": "GitHub ↗"
+      },
+      {
+        "date": "Apr 2026",
+        "type": "Azure",
+        "title": "Azure VM Deployment Lab",
+        "desc": "Ubuntu VM deployed on Azure with network security group rules, SSH access and resource tagging.",
+        "tags": ["Azure VMs", "NSG", "Ubuntu"],
+        "link": "https://github.com/chigozieali/Azure-Cloud-Projects-Portfolio/tree/main/02-personal-vm-lab",
+        "linkLabel": "GitHub ↗"
+      },
+      {
+        "date": "Apr 2026",
+        "type": "Azure",
+        "title": "Blob Storage and File Upload",
+        "desc": "Cost-optimized file storage and sharing solution that uses automatic storage tiering.",
+        "tags": ["Blob Storage", "File upload", "Tiering"],
+        "link": "https://github.com/chigozieali/Azure-Cloud-Projects-Portfolio",
+        "linkLabel": "GitHub ↗"
+      },
+      {
+        "date": "Apr 2026",
+        "type": "Azure",
+        "title": "Azure SQL Database Setup",
+        "desc": "Managed PaaS database, populated with data and accessed securely from a laptop.",
+        "tags": ["Azure SQL", "PaaS", "Database"],
+        "link": "https://github.com/chigozieali/Azure-Cloud-Projects-Portfolio/tree/main/05-Azure-SQL-Database",
+        "linkLabel": "GitHub ↗"
+      },
+      {
+        "date": "Apr 2026",
+        "type": "Networking",
+        "title": "Multi-Floor Office Network",
+        "desc": "Multi-floor network lab with dual-ISP failover, VLAN segmentation, inter-VLAN routing and automatic WAN redundancy to keep critical services online during outages.",
+        "tags": ["VLANs", "DHCP", "OSPF"],
+        "link": "https://github.com/chigozieali/packet-tracer-lab/tree/main/Multiple-floor",
+        "linkLabel": "GitHub ↗"
+      },
+      {
+        "date": "Jun 2026",
+        "type": "Web app",
+        "title": "StudyFlow App",
+        "desc": "Study planning and productivity web app built with AI-assisted workflows.",
+        "tags": ["AI-assisted", "Web app", "Productivity"],
+        "link": "https://studyflow-app-vc3m.vercel.app/",
+        "linkLabel": "Live site ↗"
+      },
+      {
+        "date": "Aug 2026",
+        "type": "SaaS",
+        "title": "HR, Payroll and Accounting System",
+        "desc": "Web platform that combines workforce operations, payroll processing and finance workflows.",
+        "tags": ["SaaS", "HR", "Payroll"],
+        "link": "https://saa-s-ebon.vercel.app/",
+        "linkLabel": "Live site ↗"
+      },
+      {
+        "date": "Ongoing",
+        "type": "Home lab",
+        "title": "Self-Hosted Server Stack",
+        "desc": "Home server running Proxmox for virtualization, TrueNAS for storage and OPNsense as the firewall, hosting my own services.",
+        "tags": ["Proxmox", "TrueNAS", "OPNsense"],
+        "privateNote": "Runs at home"
+      }
+    ]
+  }
+}
