@@ -77,9 +77,9 @@ export default function ContactForm({ email }: { email: string }) {
         <button className="btn pri" type="submit" disabled={state.submitting}>
           {state.submitting ? "Sending…" : "Send message"}
         </button>
-        <p className="cform-note" aria-live="polite">
+        {/* <p className="cform-note" aria-live="polite">
           Prefer email? <a href={`mailto:${email}`}>{email}</a>
-        </p>
+        </p> */}
       </div>
     </form>
   );
