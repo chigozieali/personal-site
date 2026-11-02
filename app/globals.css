@@ -201,10 +201,10 @@ section { padding-bottom: 96px; scroll-margin-top: 90px; }
 .proj .priv { color: var(--muted); font-size: 14px; padding-top: 8px; justify-self: end; }
 
 /* contact */
-.contact { padding: clamp(28px, 6vw, 60px); background: var(--ink); color: var(--bg); border-radius: 10px; }
-.contact h2 { font-size: clamp(2rem, 5.4vw, 3.6rem); max-width: 18ch; margin-bottom: 18px; }
-.contact p { color: color-mix(in srgb, var(--bg) 72%, transparent); max-width: 50ch; margin-bottom: 28px; }
-.cform { display: grid; gap: 14px; max-width: 640px; margin-bottom: 28px; }
+.contact { padding: clamp(28px, 6vw, 60px); background: var(--ink); color: var(--bg); border-radius: 10px; text-align: center; }
+.contact h2 { font-size: clamp(2rem, 5.4vw, 3.6rem); max-width: 18ch; margin: 0 auto 18px; }
+.contact > p { color: color-mix(in srgb, var(--bg) 72%, transparent); max-width: 50ch; margin: 0 auto 28px; }
+.cform { display: grid; gap: 14px; max-width: 640px; margin: 0 auto 28px; text-align: left; }
 .cform-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
 .cform label { display: grid; gap: 6px; }
 .cform label span { font: 500 12px var(--f-mono); letter-spacing: .04em; text-transform: uppercase; color: color-mix(in srgb, var(--bg) 65%, transparent); }
@@ -212,20 +212,20 @@ section { padding-bottom: 96px; scroll-margin-top: 90px; }
 .cform input:focus, .cform textarea:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
 .cform textarea { resize: vertical; min-height: 116px; }
 .cform input.cform-hp { position: absolute; left: -9999px; width: 1px; height: 1px; padding: 0; border: 0; opacity: 0; }
-.cform-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; }
+.cform-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 18px; }
 .cform-note { margin: 0; font-size: 14px; color: color-mix(in srgb, var(--bg) 70%, transparent); }
 .cform-note a { color: var(--bg); text-decoration-color: var(--mark); text-underline-offset: 3px; }
 .cform .btn[disabled] { opacity: .6; cursor: progress; }
-.cform .cform-error { margin: 0; font-size: 13.5px; line-height: 1.45; color: color-mix(in srgb, var(--bg) 55%, #e0564b); }
-.cform-done { display: grid; gap: 4px; max-width: 640px; margin-bottom: 28px; padding: 20px 22px; border: 1.5px solid color-mix(in srgb, var(--bg) 26%, transparent); border-radius: 8px; }
+.cform .cform-error { margin: 0; font-size: 13.5px; line-height: 1.45; color: color-mix(in srgb, var(--bg) 55%, #e0564b); text-align: center; }
+.cform-done { display: grid; gap: 4px; max-width: 640px; margin: 0 auto 28px; padding: 20px 22px; border: 1.5px solid color-mix(in srgb, var(--bg) 26%, transparent); border-radius: 8px; }
 .cform-done strong { font: 600 17px var(--f-body); }
 .cform-done p { margin: 0; color: color-mix(in srgb, var(--bg) 72%, transparent); }
 .contact .btn { color: var(--bg); border-color: var(--bg); }
 .contact .btn:hover { background: var(--bg); color: var(--ink); }
 .contact .btn.pri { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 .contact .btn.pri:hover { background: var(--bg); border-color: var(--bg); color: var(--ink); }
-.contact .meta { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 28px; font-size: 15px; color: color-mix(in srgb, var(--bg) 72%, transparent); }
-.social { display: flex; flex-wrap: wrap; gap: 10px; }
+.contact .meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 22px; margin-top: 28px; font-size: 15px; color: color-mix(in srgb, var(--bg) 72%, transparent); }
+.social { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 20px; margin-top: 28px; font-size: 14px; color: var(--muted); }
 
 .hero > div:first-child > * { animation: up .7s cubic-bezier(.2,.8,.2,1) both; }
