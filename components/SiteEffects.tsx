@@ -11,9 +11,6 @@ export default function SiteEffects({ typedWords }: { typedWords: string[] }) {
       document.getElementById(link.getAttribute("href")?.slice(1) ?? ""),
     );
     const progress = document.getElementById("progress") as HTMLElement | null;
-    const reduceMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)",
-    ).matches;
     const animationFrames = new Set<number>();
     const revealTimers = new Set<number>();
     const pointerListeners: Array<{
@@ -60,7 +57,7 @@ export default function SiteEffects({ typedWords }: { typedWords: string[] }) {
             const active = links[index];
             nav.scrollTo({
               left: active.offsetLeft - (nav.clientWidth - active.offsetWidth) / 2,
-              behavior: reduceMotion ? "auto" : "smooth",
+              behavior: "smooth",
             });
           }
         }
@@ -88,7 +85,7 @@ export default function SiteEffects({ typedWords }: { typedWords: string[] }) {
     window.addEventListener("resize", scheduleScrollUpdate);
     updateScroll();
 
-    if (!reduceMotion && "IntersectionObserver" in window) {
+    if ("IntersectionObserver" in window) {
       const selector =
         ".row > div:first-child, .about p, .facts div, .item, .svc article, .svc-cta, .skills > div, .certs li, .road-h, .proj li, .nums div, .contact";
       const fold = window.innerHeight * 0.92;
@@ -130,7 +127,7 @@ export default function SiteEffects({ typedWords }: { typedWords: string[] }) {
       });
     }
 
-    if (!reduceMotion && "IntersectionObserver" in window) {
+    if ("IntersectionObserver" in window) {
       counterObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
@@ -170,7 +167,7 @@ export default function SiteEffects({ typedWords }: { typedWords: string[] }) {
       });
     }
 
-    if (!reduceMotion && window.matchMedia("(hover: hover)").matches) {
+    if (window.matchMedia("(hover: hover)").matches) {
       const hero = document.querySelector(".hero") as HTMLElement | null;
       if (hero) {
         const handler = (event: PointerEvent) => {
@@ -212,13 +209,7 @@ export default function SiteEffects({ typedWords }: { typedWords: string[] }) {
   useEffect(() => {
     const typed = document.getElementById("typed");
     const words = typedWords;
-    if (
-      !typed ||
-      words.length === 0 ||
-      window.matchMedia("(prefers-reduced-motion: reduce)").matches
-    ) {
-      return;
-    }
+    if (!typed || words.length === 0) return;
 
     const typedEl = typed;
     let index = 0;
