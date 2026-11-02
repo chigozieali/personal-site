@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { DM_Mono, Hanken_Grotesk, Young_Serif } from "next/font/google";
+import { Hanken_Grotesk, Young_Serif } from "next/font/google";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/next';
 
@@ -14,13 +14,6 @@ const young = Young_Serif({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-young",
-  display: "swap",
-});
-
-const dmMono = DM_Mono({
-  subsets: ["latin"],
-  weight: ["400", "500"],
-  variable: "--font-dm-mono",
   display: "swap",
 });
 
@@ -44,7 +37,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${hanken.variable} ${young.variable} ${dmMono.variable}`}
+      className={`${hanken.variable} ${young.variable}`}
       suppressHydrationWarning
     >
       <head>

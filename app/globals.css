@@ -13,7 +13,7 @@
   --note-ink: #2b2a12;
   --f-display: var(--font-young), Georgia, "Times New Roman", serif;
   --f-body: var(--font-hanken), "Segoe UI", system-ui, sans-serif;
-  --f-mono: var(--font-dm-mono), ui-monospace, Menlo, monospace;
+  --f-mono: ui-monospace, Menlo, monospace;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -301,13 +301,15 @@ footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6p
 }
 @keyframes menu-in { from { opacity: 0; transform: translateY(-6px); } }
 @media (prefers-reduced-motion: reduce) {
-  /* gentle fallback: no movement, but keep fades, the drawn underline, counting and typing */
-  html { scroll-behavior: auto; }
-  .note, .live, .typed .caret, .hero > div:first-child > *, .hero-art * { animation: none; }
-  .rv.rv { transform: none; }
-  .skills > div.in .tag, .certs:not(.road) li.in svg { animation-name: fadein; }
-  .btn:hover, .proj li:hover .go { transform: none; }
-  @keyframes fadein { from { opacity: 0; } }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+  .rv.rv { opacity: 1; transform: none; }
+  .row.rv-line::before { transform: none; }
 }
 
 /* ------------------------------------------------------------------ */
