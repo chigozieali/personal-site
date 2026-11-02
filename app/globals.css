@@ -107,7 +107,7 @@ h1 .wavy svg { position: absolute; left: 0; right: 0; bottom: -.18em; width: 100
 .hero-art .art-spark { transform-box: fill-box; transform-origin: center; animation: art-twinkle 3.4s ease-in-out infinite; }
 @keyframes art-twinkle { 0%, 100% { transform: scale(.55); opacity: .15; } 45% { transform: scale(1); opacity: 1; } }
 
-.nums { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 1px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--line); margin-bottom: 96px; }
+.nums { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 1px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--line); margin-bottom: 96px; }
 .nums div { display: flex; flex-direction: column; justify-content: center; min-width: 0; min-height: 124px; padding: 22px clamp(16px, 2.4vw, 28px); background: var(--paper); }
 .nums strong { display: block; font: 400 clamp(2rem, 4.5vw, 3rem)/1 var(--f-display); color: var(--accent); font-variant-numeric: tabular-nums; }
 .nums span { display: block; max-width: 24ch; margin-top: 8px; font-size: 14.5px; line-height: 1.4; color: var(--muted); }
